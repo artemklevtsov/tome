@@ -3,6 +3,8 @@
 *A natural language library for Nim.*
 
 ```Nim
+import tome
+
 const text = """
 There should be one and only one
 programming language for everything. 
