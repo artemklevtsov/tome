@@ -1,7 +1,7 @@
 import strutils
 
 # Creates a sequence of tokens from a source string.
-proc tokenize*(sourceText: string): seq[string] =
+proc tokenize*(sourceText: string, language: string = "en"): seq[string] =
     var tokenText: string
     var ready = sourceText.replace("\n", " ") & "\t"
 

@@ -23,11 +23,11 @@ echo tagger.posTag(tokens)
 
 - [x] Tokenization
 - [x] Parts of Speech (POS) tagging
-- [] Word2Vec
+- [ ] Word2Vec
 
 ## Languages
 
 - [x] English
-- [] *please contribute...*
+- [ ] *please contribute...*
 
-Training a POS tagger for a new language should be trivial once we have a working tokenizer for it. The English tokenizer should work OK for many other languages, but it would be nice to have
+Training a POS tagger for a new language should be trivial once we have a working tokenizer for it. The English tokenizer should work OK but not great for many other languages. Open an issue if you want support for your language.
